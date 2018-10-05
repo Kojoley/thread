@@ -6,12 +6,6 @@ version: 1.0.{build}-{branch}
 
 shallow_clone: true
 
-branches:
-  only:
-    - master
-    - develop
-    - /feature\/.*/
-
 platform:
   - x64
 
